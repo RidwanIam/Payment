@@ -18,7 +18,7 @@ public class Payment {
         System.out.println("-----------------------");
         System.out.print("Pilihan Mu : ");
         pilih = sc.nextInt();
-        //sc.nextInt(); //agar tak mendapati error setelah diinput integer
+        // sc.nextInt(); agar tak mendapati error setelah diinput integer
 
         if(pilih == 1){
             orders = buyCoffee(orders);
@@ -109,14 +109,7 @@ public class Payment {
 
             return orders;
         }
-
-
-    private static String abs(int i) {
-        
-        return null;
-    }
-
-
+    
     private static boolean cekKopi(String tipe) {
         boolean ok = false;
         
